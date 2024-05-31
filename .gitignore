@@ -1,6 +1,6 @@
 # images_dirs:
-images
-processed_images
+images/*.jpg
+processed_images/*.jpg
 
 # Backup files #
 *.bak
