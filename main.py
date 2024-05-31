@@ -5,7 +5,7 @@ numbers_list = []
 numbers_list_converted = []
 excluded_numbers = []
 
-message = "Olá, tudo bem? Me chamo Marina, estou fazendo uma pesquisa sobre ... você poderia acessar o link e responder? Não levará mais do que 5 minutos. Obrigada!"
+message = "Insert your message here"
 
 extract_number(numbers_list, numbers_list_converted, excluded_numbers)
 send_whatsapp_message(numbers_list_converted, message)
