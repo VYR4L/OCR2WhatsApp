@@ -38,7 +38,6 @@ def extract_number(numbers, numbers_list_converted, excluded_numbers):
             numbers.extend(phone_pattern.findall(text))
 
     numbers_list_converted = [number.replace(" ", "").replace("-", "") for number in numbers]
-
     for number in excluded_numbers:
         if number in numbers_list_converted:
             numbers_list_converted.remove(number)
