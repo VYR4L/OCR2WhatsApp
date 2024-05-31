@@ -5,7 +5,7 @@ numbers_list = []
 numbers_list_converted = []
 excluded_numbers = []
 
-message = ""
-link = ""
+message = "your message here"
+link = "your link here"
 extract_number(numbers_list, numbers_list_converted, excluded_numbers)
 send_whatsapp_message(numbers_list_converted, message, link)
