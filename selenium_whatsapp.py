@@ -9,7 +9,7 @@ def send_whatsapp_message(list_no, text, link):
     with open("exclude.txt", "r") as file:
         excluded_numbers = file.read().splitlines()
 
-    user_data_dir = "C:\\Users\\fkzza\\AppData\\Local\\Google\\Chrome\\User Data"
+    user_data_dir = "C:\\Users\\<your_user>\\AppData\\Local\\Google\\Chrome\\User Data"
     profile_name = "Default"
 
     options = webdriver.ChromeOptions()
